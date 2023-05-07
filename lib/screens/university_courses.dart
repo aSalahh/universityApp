@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:univeristy/helper/app_coors.dart';
+import 'package:univeristy/helper/app_colors.dart';
 import 'package:univeristy/widgets/course_widget.dart';
 
 import '../widgets/app_header.dart';
@@ -30,15 +30,15 @@ class UniversityCourses extends StatelessWidget {
                 const SizedBox(
                   height: 20.0,
                 ),
-                Course(title:'Higher Institute Media' ,image: 'assets/images/media.png',),
+                const Course(title:'Higher Institute Media' ,image: 'assets/images/media.png',),
                 const SizedBox(
                   height: 20.0,
                 ),
-                Course(title:'Higher Institute of Computers' ,image: 'assets/images/computers.png',),
+                const Course(title:'Higher Institute of Computers' ,image: 'assets/images/computers.png',),
                 const SizedBox(
                   height: 20.0,
                 ),
-                Course(title:'Higher Institute of Engineering' ,image: 'assets/images/engineering.png',),
+                const Course(title:'Higher Institute of Engineering' ,image: 'assets/images/engineering.png',),
 
               ],
             ),

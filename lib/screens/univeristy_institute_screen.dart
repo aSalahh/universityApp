@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:univeristy/helper/app_coors.dart';
+import 'package:univeristy/helper/app_colors.dart';
 import 'package:univeristy/screens/university_courses.dart';
 import 'package:univeristy/widgets/course_widget.dart';
 
